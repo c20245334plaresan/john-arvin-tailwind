@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+        @custom-variant dark (&:where(.dark, .dark *));
+    </style>
+
+    <title>John Arvin Plaresan | Portfolio</title>
+</head>
+
+<body class="bg-gray-100 text-gray-800 transition-colors duration-300 dark:bg-gray-950 dark:text-white">
+
+    <!-- INTRO SECTION -->
+    <section class="px-6 py-10 text-center">
+        <h1 class="text-3xl font-bold text-gray-900 dark:text-white sm:text-4xl">
+            John Arvin Plaresan
+        </h1>
+
+        <h2 id="greeting"
+            class="mt-4 text-2xl font-bold text-blue-600 dark:text-yellow-400">
+            Welcome to My Portfolio!
+        </h2>
+
+        <button
+            id="switch"
+            type="button"
+            class="mt-6 rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white transition hover:bg-blue-700 active:scale-95 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400">
+             Dark Mode
+        </button>
+    </section>
+
+    <!-- NAVIGATION BAR -->
+    <header class="bg-gray-900 text-white shadow-lg">
+        <nav class="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 px-6 py-4 sm:flex-row">
+
+            <span class="text-xl font-bold">
+               John Arvin Plaresan
+            </span>
+
+            <ul class="flex flex-wrap justify-center gap-6 sm:gap-10">
+                <li>
+                    <a href="#projects" class="transition hover:text-blue-400">
+                        Projects
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#services" class="transition hover:text-blue-400">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#contact" class="transition hover:text-blue-400">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects"
+            class="bg-gray-100 px-6 py-16 text-gray-800 transition-colors duration-300 dark:bg-gray-950 dark:text-white">
+
+            <div class="mx-auto max-w-6xl">
+
+                <h2 class="mb-4 text-3xl font-bold">
+                    My Projects
+                </h2>
+
+                <p class="max-w-2xl text-lg leading-relaxed text-gray-600 dark:text-gray-300">
+                    Personal portfolio, payroll system, company website,
+                    startup website, and compliance monitoring system.
+                </p>
+
+                <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <div class="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg dark:bg-gray-800">
+                        <h3 class="mb-3 text-xl font-bold text-blue-600 dark:text-blue-400">
+                            Personal Portfolio
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            A website that showcases my skills, projects, and experience.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg dark:bg-gray-800">
+                        <h3 class="mb-3 text-xl font-bold text-blue-600 dark:text-blue-400">
+                            Payroll System
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            A system for managing employee information and payroll records.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white p-6 shadow-md transition hover:-translate-y-1 hover:shadow-lg dark:bg-gray-800">
+                        <h3 class="mb-3 text-xl font-bold text-blue-600 dark:text-blue-400">
+                            Company Website
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-300">
+                            A professional website for presenting a company's services.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services"
+            class="bg-orange-500 px-6 py-16 text-white transition-colors duration-300 dark:bg-orange-800">
+
+            <div class="mx-auto max-w-6xl">
+
+                <h2 class="mb-4 text-3xl font-bold">
+                    My Services
+                </h2>
+
+                <p class="max-w-2xl text-lg leading-relaxed">
+                    I provide creative and technology solutions to help businesses
+                    and individuals achieve their goals.
+                </p>
+
+                <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+                    <div class="rounded-xl bg-white/15 p-6 backdrop-blur-sm">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Website Creation
+                        </h3>
+                        <p>
+                            Responsive and modern websites for different needs.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white/15 p-6 backdrop-blur-sm">
+                        <h3 class="mb-2 text-xl font-bold">
+                            System Creation
+                        </h3>
+                        <p>
+                            Customized systems to make daily tasks easier.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white/15 p-6 backdrop-blur-sm">
+                        <h3 class="mb-2 text-xl font-bold">
+                            AI Automation
+                        </h3>
+                        <p>
+                            Automating repetitive tasks and improving workflows.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white/15 p-6 backdrop-blur-sm">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Database Management
+                        </h3>
+                        <p>
+                            Organizing and managing data efficiently.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white/15 p-6 backdrop-blur-sm">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Project Management
+                        </h3>
+                        <p>
+                            Planning and organizing projects from start to finish.
+                        </p>
+                    </div>
+
+                    <div class="rounded-xl bg-white/15 p-6 backdrop-blur-sm">
+                        <h3 class="mb-2 text-xl font-bold">
+                            Systems Analyst
+                        </h3>
+                        <p>
+                            Analyzing requirements and identifying system solutions.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact"
+            class="bg-gray-100 px-6 py-16 text-gray-800 transition-colors duration-300 dark:bg-gray-950 dark:text-white">
+
+            <div class="mx-auto max-w-3xl">
+
+                <h2 class="mb-4 text-3xl font-bold">
+                    Let's Build Together!
+                </h2>
+
+                <p class="mb-8 text-gray-600 dark:text-gray-300">
+                    Have a project in mind? Send me a message!
+                </p>
+
+                <form id="contactForm" class="space-y-6">
+
+                    <div>
+                        <label for="name"
+                            class="mb-2 block font-semibold">
+                            Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                            required
+                            class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
+                    </div>
+
+                    <div>
+                        <label for="email"
+                            class="mb-2 block font-semibold">
+                            Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email"
+                            required
+                            class="w-full rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white">
+                    </div>
+
+                    <div>
+                        <label for="message"
+                            class="mb-2 block font-semibold">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            placeholder="Write your message here..."
+                            required
+                            class="w-full resize-y rounded-lg border border-gray-300 bg-white px-4 py-3 text-gray-900 outline-none transition focus:border-blue-500 focus:ring-2 focus:ring-blue-200 dark:border-gray-700 dark:bg-gray-800 dark:text-white"></textarea>
+                    </div>
+
+                    <button
+                        type="submit"
+                        class="rounded-lg bg-blue-600 px-6 py-3 font-semibold text-white shadow-md transition hover:bg-blue-700 active:scale-95 dark:bg-yellow-500 dark:text-gray-900 dark:hover:bg-yellow-400">
+                        Send Message
+                    </button>
+
+                    <p id="formNotice" class="hidden text-sm font-semibold"></p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 px-6 py-6 text-center text-white">
+        <p>
+            &copy; 2026 John Arvin Plaresan. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- JAVASCRIPT: DARK MODE SWITCH -->
+    <script>
+        const switchButton = document.getElementById("switch");
+        const html = document.documentElement;
+
+        switchButton.addEventListener("click", function () {
+            const isDark = html.classList.toggle("dark");
+
+            if (isDark) {
+                switchButton.textContent = "Switch";
+            } else {
+                switchButton.textContent = "Switch";
+            }
+        });
+
+        // Demo contact form: this does not send messages to a server.
+        const contactForm = document.getElementById("contactForm");
+        const formNotice = document.getElementById("formNotice");
+
+        contactForm.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            formNotice.textContent =
+                "Thank you! The form works, but sending messages requires a backend or email service.";
+            formNotice.classList.remove("hidden");
+            formNotice.classList.add("text-green-600", "dark:text-green-400");
+
+            contactForm.reset();
+        });
+    </script>
+
+</body>
+</html>
